@@ -1,0 +1,20 @@
+Weak Label Classification Report
+
+Partial gold subset size: 2400
+Weak supervision training size: 71586
+Refined weak supervision training size: 65360
+
+Scenario metrics:
+- Full supervision: accuracy=0.9216, macro_f1=0.9214, macro_precision=0.9215, macro_recall=0.9216
+- Weak supervision: accuracy=0.7876, macro_f1=0.7857, macro_precision=0.7878, macro_recall=0.7876
+- Refined weak supervision: accuracy=0.8170, macro_f1=0.8148, macro_precision=0.8150, macro_recall=0.8170
+
+Macro F1 drop from full supervision to weak supervision: 0.1357
+Macro F1 recovered by refinement: 0.0291
+
+Weak label quality on the labeled subset:
+- Weak rules: coverage=0.5933, precision=0.8069, conflict_rate=0.0638
+- Refined rules: coverage=0.5463, precision=0.8429, conflict_rate=0.0638
+
+Hardest class under weak supervision: Business (F1=0.6884)
+Hardest class after refinement: Business (F1=0.7293)

@@ -1,0 +1,12 @@
+{
+  "dataset": "AG News",
+  "train_examples": 120000,
+  "test_examples": 7600,
+  "labeled_fraction": 0.02,
+  "labeled_subset_examples": 2400,
+  "weak_training_examples": 71586,
+  "refined_training_examples": 65360,
+  "vectorizer_max_features": 30000,
+  "rule_count": 12,
+  "seed": 13
+}

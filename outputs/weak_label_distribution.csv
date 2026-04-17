@@ -1,0 +1,13 @@
+scenario,label_id,label_name,count,share
+Gold train,0,World,30000,0.25
+Gold train,1,Sports,30000,0.25
+Gold train,2,Business,30000,0.25
+Gold train,3,Sci/Tech,30000,0.25
+Weak labels,0,World,18808,0.27184690544329776
+Weak labels,1,Sports,18298,0.2644754719162836
+Weak labels,2,Business,16124,0.23305292978348222
+Weak labels,3,Sci/Tech,15956,0.23062469285693638
+Refined labels,0,World,15921,0.25287484116899617
+Refined labels,1,Sports,17507,0.2780654383735705
+Refined labels,2,Business,13614,0.2162325285895807
+Refined labels,3,Sci/Tech,15918,0.25282719186785263
