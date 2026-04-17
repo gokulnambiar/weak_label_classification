@@ -41,16 +41,6 @@ On the default run with 2,400 gold-labeled training examples and 30,000 TF-IDF f
 
 The weak rules covered `59.3%` of the small labeled subset at `80.7%` precision. After rule calibration and confidence filtering, coverage dropped to `54.6%` but precision improved to `84.3%`. Business was the hardest class under weak supervision, and the refinement step recovered about `2.9` macro F1 points over the raw weak-label model without closing the full gap to gold labels.
 
-## Run
-
-```bash
-cd /Users/gokulnambiar/Codex/weak_label_classification
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python data/download_ag_news.py
-python main.py
-```
 
 ## Project Layout
 
